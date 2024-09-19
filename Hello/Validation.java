@@ -1,4 +1,26 @@
 class test {
+     public static boolean isValidFirstName(String firstName) {
+        // Check if the name is empty or null
+        if (firstName == null || firstName.isEmpty()) {
+            return false;
+        }
+
+        // Check if the name length is within a reasonable range (e.g., 1 to 50 characters)
+        if (firstName.length() < 1 || firstName.length() > 50) {
+            return false;
+        }
+
+        // Ensure that all characters are alphabetic
+        for (int i = 0; i < firstName.length(); i++) {
+            char ch = firstName.charAt(i);
+            if (!Character.isLetter(ch)) {
+                return false;
+            }
+        }
+
+        // If all checks pass, the first name is valid
+        return true;
+    }
     public static boolean isValidPassword(String password) {
         // Check if password length is between 8 and 20
         if (password.length() < 8 || password.length() > 20) {
