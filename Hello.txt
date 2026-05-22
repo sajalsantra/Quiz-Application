@@ -1,0 +1,15 @@
+PROBLEM STATEMENT
+
+Understanding hidden dependencies within application portfolios is critical to avoid unforeseen impacts during modernization but is hampered by incomplete or siloed telemetry and log data. Manual dependency mapping is labor-intensive and often misses indirect or runtime dependencies. Without comprehensive impact analysis, refactoring hotspots, security vulnerabilities, and pipeline weaknesses remain undetected, increasing migration risk. Autonomous remediation capabilities are rare, resulting in delayed fixes and backlog accumulation. There is a need for Al-enabled automated dependency inference from synthetic logs and telemetry, mapping blast radius, and generating backlog items to guide refactoring, security improvements, and pipeline hardening. Guardrails are essential to ensure safe remediation without disrupting operations.
+
+Data Considerations:
+
+Synthetic or anonymized logs and telemetry data capturing runtime behaviors; application and infrastructure metadata; incident and change logs; mock backlog and remediation playbook templates; policy definitions for guardrails and safe remediation; preprocessing to extract dependency patterns and correlate events; synthetic datasets to ensure privacy and demo feasibility. Consider using synthetic or anonymized data where appropriate. Ensure data quality and relevance to the problem context.
+
+Consider using synthetic or anonymized data where appropriate. Ensure data quality and relevance to the problem context.
+
+SOLUTION EXPECTATIONS
+
+Prototype Al-driven dependency inference and blast radius mapping; automated backlog creation for remediation tasks; guardrailed autonomous remediation execution; Ul visualization of dependencies and remediation status; ITSM/ALM mock workflow integration; demo video showcasing impact analysis and remediation; documentation detailing system architecture and safety measures. Feel free to explore creative solutions that align with the problem context and objectives.
+
+Feel free to explore creative solutions that align with the problem context and objectives.
